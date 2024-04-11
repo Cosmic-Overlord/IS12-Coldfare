@@ -6,6 +6,9 @@ IS12 Discord link http://discord.gg/FVRctMD
 
 Original IS12-Warfare github link https://github.com/Project-IS12/IS12-Warfare
 
+![image](https://github.com/Cosmic-Overlord/IS12-Coldfare/assets/100090741/e2261e17-b754-4ff3-a0cc-0fd7efd3e693)
+
+
 ## Interstation12: Warfare
 
 **Website:** http://is12wiki.xyz/index.php/Main_Page
