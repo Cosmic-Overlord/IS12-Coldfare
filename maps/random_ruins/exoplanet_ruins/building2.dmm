@@ -1,0 +1,33 @@
+"a" = (/turf/simulated/wall/concrete,/area/warfare/battlefield/trench_section/underground)
+"b" = (/obj/structure/torchwall{pixel_y = -4},/turf/simulated/wall/concrete,/area/warfare/battlefield/trench_section/underground)
+"c" = (/obj/structure/table/rack/shelf,/obj/random/canned_food,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"d" = (/obj/structure/table/rack/shelf,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"e" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"f" = (/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"g" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"h" = (/obj/structure/torchwall{dir = 1; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"i" = (/obj/structure/table/rack/shelf,/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/obj/random/canned_food,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"j" = (/obj/structure/table/rack/shelf,/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/obj/random/canned_food,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"k" = (/obj/structure/table/steel,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"l" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"m" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/template_noop,/area/template_noop)
+"n" = (/turf/template_noop,/area/template_noop)
+"o" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/template_noop,/area/template_noop)
+
+(1,1,1) = {"
+aaaaabaaaaaabaaaaa
+acdccdddcccdddcdca
+aeffffffffffffffga
+affffhffffffhffffa
+acfgaaegaaegaaefda
+adffcdffddffcdffda
+adffcdffccffdcffca
+aifgaaegaaegaaefja
+acfffffffffffffffa
+afffffhffffhfffkka
+afffaabaaaabaafkfa
+afffaffffffffafkfa
+aefflfffffffflffga
+afffamnnnnnnoafffa
+aaaaannnnnnnnaaaaa
+"}

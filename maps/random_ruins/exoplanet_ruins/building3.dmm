@@ -1,0 +1,41 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/simulated/wall/concrete,/area/warfare/battlefield/trench_section/underground)
+"c" = (/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"d" = (/obj/structure/bed,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"e" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"f" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"g" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"h" = (/obj/structure/grille,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"i" = (/obj/structure/torchwall{pixel_y = -4},/turf/simulated/wall/concrete,/area/warfare/battlefield/trench_section/underground)
+"j" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"k" = (/obj/structure/table/steel,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"l" = (/obj/structure/torchwall{dir = 1; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"m" = (/obj/structure/bed/chair,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"n" = (/obj/structure/bed/chair{dir = 1; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"o" = (/obj/structure/bed/chair{dir = 4; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"p" = (/obj/structure/closet,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"q" = (/obj/structure/table/steel,/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaa
+abbbbbbbaaaaaaaaaaa
+abcdbdcbaaaaaaaaaaa
+abecbcfbbbbaaaaaaaa
+abghihgbccbabbbbbbb
+abcccccgccbabejjkfb
+abcclccgccbabccmkcb
+abghbhgbcfbabckkkcb
+abecbcfbccbabccnccb
+abcdbdcbccbabklclkb
+bbbbbbbiggbgibbgbbb
+bcccccccccccccccfba
+becccccccccccccccba
+bbgbcclcccccccckkba
+bjcbggbccclccccokba
+bjmkccbbgbbkmjcjkba
+bkkkccbpcpbkkkccfba
+becccfbpcpbecccjkba
+bcccccbpcpbkmjcokba
+bnnccnbplpbkkkckqba
+bbbggbbbbbbbbbbbbba
+"}

@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'C64';
+	src: url('C64.eot');
+	/* IE9 Compat Modes */
+	src: url('C64.eot?#iefix') format('embedded-opentype');
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #333333;
+	background-image: url("scanlines.png");
+	user-select: none;
+	-ms-user-select: none;
+	font-family: C64;
+	height: 100%;
+	overflow: hidden;
+	scrollbar-track-color: #2e2e2e;
+	scrollbar-face-color: #1a1919;
+	scrollbar-shadow-color: #1a1919;
+	scrollbar-arrow-color: #1a1919;
+	cursor: url('https://gitgud.io/notMatt/septic-fork/-/raw/master/html/pointer.cur'), auto;
+}
+
+p {
+	color: white;
+}
+
+.stat {
+	color: #00cb00;
+	text-shadow: 0px 0px 2px;
+}
+
+.statAlt {
+	color: #00ff00;
+	text-shadow: 0px 0px 2px;
+}
+
+.gurpsStat {
+	font-size: 25px;
+	color: white;
+	text-shadow: 0px 0px 2.5px;
+}
+
+.gurpsStatAlt {
+	font-size: 25px;
+	color: lightcoral;
+	text-shadow: 0px 0px 2.5px;
+}
+
+br {
+	height: 3px;
+}
+
+.categorypanel {
+	float: left;
+	width: 67px;
+	padding-right: 3px;
+	height: 95%;
+	overflow-y: auto;
+	z-index: 10;
+}
+
+.category {
+	display: block;
+	cursor: pointer;
+	width: 67px;
+	height: 30px;
+	float: right;
+	z-index: 10;
+}
+
+
+.verbpanel {
+	float: right;
+	width: calc(100% - 70px);
+	background-size: 100% 100%;
+	height: 95%;
+	overflow-y: auto;
+	animation:colorPulse 5s infinite ease-in-out;
+}
+
+.verbpanel::before {
+	animation:wave 10s infinite ease-in-out;
+  	content:"";
+  	height:20vh;
+  	left:0;
+	right:0;
+  	opacity:.5;
+  	position:absolute;
+  	z-index:1;
+	width: auto;
+
+}
+
+.verbpanel::after {
+	background-image:linear-gradient(transparent, transparent 3px, #222);
+	background-size:4px 4px;
+	bottom:0;
+	content:"";
+	left:0;
+	pointer-events:none;
+	position:absolute;
+	right:0;
+	top:0;
+	width: auto;
+	z-index:2;
+}
+
+.verbpanel .customHTML {
+	padding-left: 20px;
+}
+
+.verbpanel .verb {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	height: 30px;
+	vertical-align: middle;
+	width: 50%;
+	text-align: center;
+	word-wrap: break-word;
+	float: left;
+}
+
+.verbpanel div a.default {
+	color: #00ff00;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.verbpanel div a.default:hover {
+	color: #00cb00;
+	text-shadow: 0px 0px 4px;
+}
+
+.verbpanel div a.alt {
+	color: #00cb00;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.verbpanel div a.alt:hover {
+	color: #00ff00;
+	text-shadow: 0px 0px 4px;
+}
+
+/* Table Stuff */
+table {
+	width: 100%;
+}
+
+td {
+	padding-right: 20px;
+}
+
+@keyframes wave {
+	0% {
+	  box-shadow:0 -10vh 20vh #0c0;
+	  top:-100vh;
+	}
+	48%, 52% {
+	  box-shadow:0 -10vh 20vh #090;
+	}
+	50% {
+	  box-shadow:0 -10vh 20vh #060;
+	}
+	100% {
+	  box-shadow:0 -10vh 20vh #0c0;
+	  top:200vh;
+	}
+}
+
+@keyframes colorPulse {
+	0%, 100% {
+	  color:#0c0;
+	}
+	48%, 52% {
+	  color:#090;
+	}
+	50% {
+	  color:#060;
+	}
+}

@@ -1,0 +1,41 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/simulated/wall/concrete,/area/warfare/battlefield/trench_section/underground)
+"c" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"d" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"e" = (/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"f" = (/obj/structure/table/steel,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"g" = (/obj/structure/bed/chair{dir = 4; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"h" = (/obj/structure/bed/chair{dir = 8; icon_state = "chair_preview"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"i" = (/obj/structure/bed/chair,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"j" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"k" = (/obj/structure/bed/chair{dir = 8; icon_state = "chair_preview"},/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"l" = (/obj/structure/table/steel,/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"m" = (/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"n" = (/obj/structure/closet,/obj/structure/torchwall{dir = 8; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"o" = (/obj/structure/bed,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"p" = (/obj/structure/closet,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"q" = (/obj/structure/bed/chair{dir = 4; icon_state = "chair_preview"},/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"r" = (/obj/structure/closet,/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"s" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+"t" = (/obj/structure/window/classic/reinforced,/turf/simulated/floor/tiled,/area/warfare/battlefield/trench_section/underground)
+
+(1,1,1) = {"
+aaaaaaaabbbbbbaaaaaa
+bbbstbbbbdeebbbbstba
+bfeeegfhbfiebfffeeba
+bjeeegfkblfebjeeenba
+beeeeeeeceeeceeeeoba
+beeeeeeeceeeceeeepba
+bqfhgfhmbeeebeeeeoba
+bgfhgfhebtstbreeenba
+beeeeeeebaaaboeeeoba
+beeeeeeebaaabpeeepba
+bqfegfhmbaaaboeeeoba
+bgfegfhebaaabreeenba
+bbbtbbbtbaaaboeeeoba
+aaaaaaaaaaaabpeeepba
+aaaaaaaaaaaaboeeeoba
+aaaaaaaaaaaabreeenba
+aaaaaaaaaaaaboeeeoba
+aaaaaaaaaaaabbtttbba
+"}
