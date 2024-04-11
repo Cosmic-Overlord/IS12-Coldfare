@@ -2,9 +2,9 @@
 
 Original IS12 build and idea belongs to Matt (@mattmatterson111)
 
-IS-12 Discord http://discord.gg/FVRctMD
+IS12 Discord link http://discord.gg/FVRctMD
 
-Original IS-12 Warfare https://github.com/Project-IS12/IS12-Warfare
+Original IS12-Warfare github link https://github.com/Project-IS12/IS12-Warfare
 
 ## Interstation12: Warfare
 
